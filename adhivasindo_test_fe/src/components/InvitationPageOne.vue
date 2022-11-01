@@ -11,6 +11,21 @@
       src="@/assets/ASSET_PNG/Flower_4.png"
       alt=""
     />
+    <img
+      class="page_one_trinket_mid_right position-absolute"
+      src="@/assets/ASSET_PNG/Leaf_1.png"
+      alt=""
+    />
+    <img
+      class="page_one_trinket_mid_left position-absolute"
+      src="@/assets/ASSET_PNG/Leaf_2.png"
+      alt=""
+    />
+    <img
+      class="page_one_trinket_bot-right position-absolute"
+      src="@/assets/ASSET_PNG/Flower_4.png"
+      alt=""
+    />
     <h1 class="page_one_title text-center">The Wedding of</h1>
     <div class="page_one_pic_profile_outer_wrapper position-absolute overflow-hidden">
       <div class="page_one_pic_profile_inner_wrapper overflow-hidden">
@@ -51,9 +66,29 @@ export default {
 }
 
 .page_one_trinket_top_right {
+  transform: rotate(5deg);
   width: 60%;
-  right: -20%;
-  top: -5%;
+  right: -25%;
+  top: -10%;
+}
+
+.page_one_trinket_mid_right {
+  right: 10%;
+  bottom: 34%;
+  width: 13%;
+}
+
+.page_one_trinket_mid_left {
+  left: 10%;
+  top: 50%;
+  width: 13%;
+}
+
+.page_one_trinket_bot-right {
+  transform: rotate(-20deg);
+  width: 60%;
+  right: -35%;
+  bottom: -5%;
 }
 
 .page_one_title {
