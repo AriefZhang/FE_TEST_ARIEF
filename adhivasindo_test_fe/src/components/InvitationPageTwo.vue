@@ -7,28 +7,20 @@
       ref="bgImg"
     />
     <img
-      class="page_two_trinket_top_right position-absolute"
-      src="@/assets/ASSET_PNG/Flower_4.png"
+      class="page_two_trinket_bot-left position-absolute"
+      src="@/assets/ASSET_PNG/Flower_2.png"
       alt=""
     />
-    <h1 class="page_two_title text-center">The Wedding of</h1>
-    <div class="page_two_pic_profile_outer_wrapper position-absolute overflow-hidden">
-      <div class="page_two_pic_profile_inner_wrapper overflow-hidden">
-        <img
-        class="page_two_pic_profile"
-        src="@/assets/ASSET_PNG/Photo_Profil.png"
-        alt=""
-        />
-      </div>
-    </div>
-    <h1 class="page_two_groom_and_bride text-center">Mustika & Wira</h1>
-    <div class="d-flex flex-column align-items-center mt-5">
-      <div class="page_two_date_wrapper d-flex flex-row align-items-center justify-content-around w-50">
-        <div>25</div>
-        <div class="page_two_date_divider">05</div>
-        <div class="page_two_date_divider">2022</div>
-      </div>
-      <p class="mt-2">di mohon kehadirannya</p>
+    <div class="text-center m-auto w-75">
+      <h1 class="page_two_title page_two_color_beige">Assalamualaikum Wr. Wb.</h1>
+      <p class="m-0 mt-2">Tanpa mengurangi rasa hormat, Kami mengundang Bapak/Ibu/Saudara/i pada acara pernikahan kami:</p>
+      <h1 class="page_two_name m-0 mt-4">Mustika</h1>
+      <p class="m-0">Putri dari Bpk Winarno & Ibu Julaikah</p>
+      <h1 class="page_two_name m-2">&</h1>
+      <h1 class="page_two_name m-0">Wira</h1>
+      <p class="m-0">Putri dari Bpk Winarno & Ibu Julaikah</p>
+      <h1 class="page_two_title page_two_color_beige m-0 mt-3">QS. Ar-Rum Ayat 21</h1>
+      <p class="m-0 page_two_ayat mt-1">Dan diantara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.</p>
     </div>
   </div>
 </template>
@@ -50,17 +42,24 @@ export default {
   top: 0;
 }
 
-.page_two_trinket_top_right {
-  width: 60%;
-  right: -20%;
-  top: -5%;
+.page_two_trinket_bot-left {
+  width: 115%;
+  left: -10%;
+  bottom: -20%;
 }
 
 .page_two_title {
+  font-style: italic;
   font-weight: 700;
-  font-size: 38px;
-  margin-top: 18%;
+  font-size: 24px;
+  margin-top: 50%;
   margin-bottom: 0
+}
+
+.page_two_name {
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 68px;
 }
 
 .page_two_pic_profile_outer_wrapper {
@@ -78,34 +77,11 @@ export default {
   border: 5px solid transparent;
 }
 
-.page_two_pic_profile {
-  width: 115.75%;
+.page_two_ayat {
+  font-size: 12px;
 }
 
-.page_two_groom_and_bride {
-  font-weight: 400;
-  font-size: 72px;
-  line-height: 78px;
-  color: rgba(97, 118, 75, 1);
-  margin-top: 100%;
-  margin-inline: auto;
-  width: 55%;
-  margin-bottom: 0;
-}
-
-.page_two_date_wrapper {
-  font-size: 36px;
-  line-height: 38px;
-  padding: 5px 15px;
-  border: 3px solid rgb(249, 183, 84)
-}
-
-.page_two_date_wrapper > div {
-  font-weight: 500;
-  padding-inline: 10px;
-}
-
-.page_two_date_divider {
-  border-left: 3px solid rgba(97, 118, 75, 1);
+.page_two_color_beige {
+  color: rgb(170, 139, 86);
 }
 </style>

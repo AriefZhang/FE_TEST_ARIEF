@@ -4,8 +4,8 @@ import { RouterView } from "vue-router";
 
 <template>
   <RouterView />
-  <!-- <audio controls autoplay loop ref="bgAudio" hidden>
+  <audio controls autoplay loop ref="bgAudio" hidden>
     <source src="@/assets/audio/Beginning_DreamXyla.mp3" type="audio/mpeg">
     Your browser does not support the audio tag.
-  </audio> -->
+  </audio>
 </template>
